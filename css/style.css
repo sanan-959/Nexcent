@@ -140,3 +140,117 @@
     margin: 0;
     padding: 2px 0px;
 }
+.tesla-section p{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #717171;
+}
+.tesla-section h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #4CAF4F;
+}
+.tesla-section button{
+    border: none;
+}
+.marketing-section h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #4D4D4D;
+}
+.marketing-section p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #717171;
+    
+}
+
+.custom-card{
+    position: relative;
+}
+.upper-card{
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    width: 220px;
+    background-color: #F5F7FA;
+    box-shadow: 2px 2px 11px rgb(190, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 5px;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+.upper-card h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #717171;
+    
+}
+.upper-card button{
+    border: none;
+}
+.demo{
+    margin-top: 100px;
+}
+.demo h2{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+    color: #263238;
+}
+.demo button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footer-section{
+    background-color: #263238;
+    color: white;
+}
+.footer-section p{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #F5F7FA;
+}
+.circle-shape{
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #2b2c2b;
+}
+.form-control{
+    background-color: rgba(109, 109, 109, 0.534);
+    border: none;
+    color: #F5F7FA;
+}
+.form-control input{
+    color: #F5F7FA;
+}
+.custom-input::placeholder{
+    color: #F5F7FA;
+    font-size: 11px;
+    align-items: center;
+    line-height: 18px;
+}
+.input-group-text{
+    background-color: rgba(109, 109, 109, 0.534);
+    color: #F5F7FA;
+    border: none;
+}
+
